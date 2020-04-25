@@ -23,3 +23,14 @@ contact:
     url: "https://instagram.com/steelydanslands"
   - name: "Email"
     url: "mailto:rzychang@gmail.com"
+
+marquee:
+  first:
+    top: "latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest latest"
+    bottom: "creations creations creations creations creations creations creations creations creations creations creations creations creations creations creations creations"
+  second: 
+    top: "cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi"
+    bottom: "brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi"
+  third:
+    top: "available for available for available for available for available for available for available for available for available for available for available for"
+    bottom: "commissions commissions commissions commissions commissions commissions commissions commissions commissions commissions"
