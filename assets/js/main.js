@@ -3,11 +3,7 @@ var feed = new Instafeed({
     transform: function(item) {
     	console.log(item)
     	item.caption = item.caption.replace(/(?:\r\n|\r|\n)/g, '<br>');
-    	 item.timestamp = new Date(item.timestamp).toLocaleString('en-US', {
-	        year: 'numeric', 
-	        month: 'long', 
-	        day: 'numeric'
-	      });
+        item.timestamp = moment(item.timestamp).format('MMM DD, YYYY')
 
 	    // return the modified item
 	    return item;
