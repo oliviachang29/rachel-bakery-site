@@ -1,8 +1,13 @@
 var feed = new Instafeed({
+    limit: 10,
     accessToken: InstagramToken,
     transform: function(item) {
     	console.log(item)
-    	item.caption = item.caption.replace(/(?:\r\n|\r|\n)/g, '<br>');
+        const tags_separation_character = '. . .';
+        if (item.caption.indexOf(tags_separation_character) > -1) {
+            item.caption = item.caption.slice(0, item.caption.indexOf(tags_separation_character))
+        }
+        item.caption = item.caption.replace(/(?:\r\n|\r|\n)/g, '<br>');
         item.timestamp = moment(item.timestamp).format('MMM DD, YYYY')
 
 	    // return the modified item
