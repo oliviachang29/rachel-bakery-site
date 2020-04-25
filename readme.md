@@ -1,3 +1,3 @@
-# Jekyll Barebones Template
+# Rachel's Bakery Site
 
-Basic Jekyll site with zero content.
+@steelydanslands on instagram
