@@ -1,0 +1,23 @@
+nav:
+  title: Steely Dan's Lands
+  links:
+  - text: "About"
+    url: "#about"
+  - text: "Contact"
+    url: "mailto:rzychang@gmail.com"
+
+hero:
+  text_1: "Bakery based in \nPalo Alto, California."
+  text_2: "I make some pretty good stuff."
+
+about:
+  - title: "Who I Am"
+    text: "Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod."
+  - title: "Commissions"
+    text: "Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur."
+
+contact:
+  - name: "Instagram"
+    url: "https://instagram.com/steelydanslands"
+  - name: "Email"
+    url: "mailto:rzychang@gmail.com"

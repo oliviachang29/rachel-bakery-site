@@ -1,0 +1,30 @@
+<div class="marquee-container marquee-below-feed">
+	<p class="marquee marquee-top-text">cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi</p>
+	<p class="marquee">brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi</p>
+</div>
+
+<section id="about">
+	<div class="about-container">
+		<h2>About</h2>
+		<div class="row">
+			{% for col in site.data.general.about %}
+				<div class="col-lg-4 about-column">
+					<h5>{{ col.title }}—</h5>
+					{{ col.text | markdownify }}
+				</div>
+			{% endfor %}
+			<div class="col-lg-4">
+				<h5>Contact—</h5>
+				<ul>
+					{% for link in site.data.general.contact %}
+						<li><a href="{{link.url}}" target="_blank"><p>{{link.name}}</p></a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="marquee-container">
+		<p class="marquee marquee-top-text">available for available for available for available for available for available for available for available for available for available for available for </p>
+		<p class="marquee">commissions commissions commissions commissions commissions commissions commissions commissions commissions commissions</p>
+	</div>
+</section>

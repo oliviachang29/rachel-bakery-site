@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <a class="navbar-brand" href="#">{{ site.data.general.nav.title }}</a>
+  <ul class="navbar-nav ml-auto">
+    {% for link in site.data.general.nav.links %}
+    	<li class="nav-item">
+        <a class="nav-link" href="{{link.url}}">{{link.text}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
