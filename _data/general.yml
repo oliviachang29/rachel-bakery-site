@@ -52,12 +52,14 @@ contact:
   url: mailto:rzychang@gmail.com
 marquee:
   first:
-    top: latest latest latest latest latest latest latest latest latest latest latest
-      latest latest latest latest latest latest latest latest latest latest latest
-      latest latest
-    bottom: creations creations creations creations creations creations creations
-      creations creations creations creations creations creations creations creations
-      creations
+    top: 'latest creations latest creations latest creations latest creations latest
+      creations latest creations latest creations latest creations latest creations
+      latest creations latest creations latest creations latest creations latest creations
+      latest creations '
+    bottom: 'latest creations latest creations latest creations latest creations latest
+      creations latest creations latest creations latest creations latest creations
+      latest creations latest creations latest creations latest creations latest creations
+      latest creations '
   second:
     top: cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi
       & cakes & cupcakes & brownies & mochi & cakes & cupcakes & brownies & mochi
