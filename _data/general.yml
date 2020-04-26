@@ -1,6 +1,6 @@
 ---
 title: Steely Dan's Lands
-description: this is my backing blog
+description: ''
 nav:
   links:
   - text: About
@@ -11,6 +11,8 @@ hero:
   text_1: "Bakery based in \nPalo Alto, California."
   text_2: I make some pretty good stuff.
 about:
+- title: description
+  text: this my bakcing blog
 - title: Who I Am
   text: Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus
     ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
