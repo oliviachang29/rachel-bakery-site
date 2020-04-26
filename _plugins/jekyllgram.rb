@@ -49,7 +49,7 @@ module Jekyll
     def recent_photos
       insta_response = Net::HTTP.get_response(URI.parse(@api_url + @access_token))
       if !(insta_response.is_a?(Net::HTTPSuccess))
-      	warn "Instagram fetch failed."
+      	warn "Instagram fetch failed. API limit likely reached."
       end
       return [] unless insta_response.is_a?(Net::HTTPSuccess)
       insta_response = JSON.parse(insta_response.body)
