@@ -1,0 +1,50 @@
+@import "variables";
+
+#about {
+	background-color: #F5F5F5;
+	overflow-x: hidden;
+}
+
+.about-container {
+	padding: 50px 20px 60px;
+	@media (min-width: $md) {
+		padding: 160px 80px 190px;
+	}
+
+	h2 {
+		font-family: $default-font;
+		font-size: 89.74px;
+		color: #000000;
+		letter-spacing: 0;
+		margin-bottom: 50px;
+	}
+
+	h5 {
+		font-weight: bold;
+		margin-bottom: 20px;
+		font-family: $default-font;
+		font-size: 20px;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	p {
+		font-family: $default-font;
+		font-size: 20px;
+		line-height: 30px;
+		opacity: 0.8;
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+.about-column {
+	@media (max-width: $lg) {
+		margin-bottom: 30px;
+	}
+}

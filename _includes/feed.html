@@ -1,2 +1,13 @@
 <div class="feed-container" id="instafeed">
+	{% jekyllgram 10 %}
+		<div class="instagram-post">
+			<a class="feed-image-container" href="{{photo.permalink}}">
+				<img src="/assets/images/lazy.jpg" data-src="{{photo.media_url}}" class="lazy" />
+			</a>
+			<div class="caption">
+				<p>{{photo.caption | parse_caption | strip_html | newline_to_br }}</p>
+				<p class="timestamp">{{photo.timestamp | date_to_string }}
+			</div>
+		</div>
+	{% endjekyllgram %}
 </div>

@@ -10,7 +10,7 @@
 			{% for col in site.data.general.about %}
 				<div class="col-lg-4 about-column">
 					<h5>{{ col.title }}—</h5>
-					{{ col.text | markdownify }}
+					{{ col.text | newline_to_br | markdownify  }}
 				</div>
 			{% endfor %}
 			<div class="col-lg-4">

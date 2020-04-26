@@ -1,0 +1,74 @@
+@import "variables";
+
+.feed-container {
+	width: 100%;
+	padding: 0 20px;
+	@media (min-width: $xs) {
+		padding: 0 34px;
+	}
+}
+
+.instagram-post {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 68px;
+	@media (min-width: $lg){
+		flex-direction: row;
+		margin-bottom: 34px;
+	}
+	width: 100%;
+}
+
+.feed-image-container {
+	width: 100%;
+	margin-bottom: 34px;
+	overflow: hidden;
+	@media (min-width: $lg){
+		height: 70vh;
+		width: 60%;
+		margin-bottom: 0
+	}
+	
+	img {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+		transition: .2s all;
+	}
+	&:hover {
+		img {
+			-webkit-transform:scale(1.05);
+		    -moz-transform:scale(1.05);
+		    -ms-transform:scale(1.05);
+		    -o-transform:scale(1.05);
+		     transform:scale(1.05);	
+		}
+	}
+}
+
+.caption {
+	@media (min-width: $lg){
+		width: 40%;
+		padding: 0 34px;
+	}
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.instagram-post p {
+	font-family: $default-font;
+	font-size: 20px;
+	opacity: 0.8;
+	/*line-height: 44px;*/
+
+	@media (min-width: 1300px) {
+		font-size: 30px
+	}
+}
+
+.timestamp {
+	color: #8B8B8B;
+	opacity: 1;
+}

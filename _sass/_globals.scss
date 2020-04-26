@@ -1,12 +1,4 @@
-/* BOOTSRAP MEDIA QUERIES */
-$xs: 480px;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-
-/*$default-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Sans Serif', Icons /*!System*/
-$default-font: 'Airbnb Cereal';
-
+@import "variables";
 
 html, body {
 	height: 100%;
@@ -29,6 +21,11 @@ html, body {
                                   supported by Chrome and Opera */
 }
 
+.lazy {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
 .navbar-brand {
 	@media (max-width: $xs) {
 		text-align: center;
@@ -39,197 +36,5 @@ html, body {
 .navbar-nav {
 	@media (max-width: $xs) {
 		display: none;
-	}
-}
-
-.hero-container {
-	padding: 100px 20px 60px;
-	@media (min-width: $xs) {
-		padding: 150px 20px 70px;
-	}
-	@media (min-width: $lg) {
-		padding: 150px 70px;
-	}
-	display: flex;
-	flex-direction: column;
-}
-
-.hero-text {
-	font-family: $default-font;
-	letter-spacing: 0;
-	line-height: 50px;
-	text-align: center;
-	font-size: 48px;
-	@media (min-width: $lg) {
-		font-size: 79.74px;
-		line-height: 91px;
-		width: 50%;
-	}
-}
-
-#hero-text-1 {
-	@media (min-width: $lg) {
-		text-align: left;
-	}
-}
-
-#hero-text-2 {
-	@media (min-width: $lg) {
-		text-align: right;
-		align-self: flex-end;
-	}
-}
-
-.marquee-container {
-	width: 100%;
-	overflow: hidden;
-}
-
-.marquee {
-	font-family: $default-font;
-	font-size: 29.74px;
-	color: #B4B4B4;
-	letter-spacing: 0;
-	text-align: center;
-	white-space: nowrap;
-	margin-left: -15px;
-	margin-bottom: 0;
-	@include noselect;
-}
-
-#marquee-latest-creations-container {
-	margin-bottom: 34px;
-}
-
-.marquee-top-text {
-	margin-bottom: -10px;
-}
-
-.feed-container {
-	width: 100%;
-	padding: 0 20px;
-	@media (min-width: $xs) {
-		padding: 0 34px;
-	}
-}
-
-.instagram-post {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 68px;
-	@media (min-width: $md){
-		flex-direction: row;
-		margin-bottom: 34px;
-	}
-	width: 100%;
-}
-
-.feed-image-container {
-	width: 100%;
-	margin-bottom: 34px;
-	overflow: hidden;
-	@media (min-width: $md){
-		height: 70vh;
-		width: 60%;
-		margin-bottom: 0
-	}
-	
-	img {
-		object-fit: cover;
-		height: 100%;
-		width: 100%;
-		transition: .2s all;
-	}
-	&:hover {
-		img {
-			-webkit-transform:scale(1.05);
-		    -moz-transform:scale(1.05);
-		    -ms-transform:scale(1.05);
-		    -o-transform:scale(1.05);
-		     transform:scale(1.05);	
-		}
-	}
-}
-
-.caption {
-	@media (min-width: $md){
-		width: 40%;
-		padding: 0 34px;
-	}
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	justify-content: center;
-}
-
-.instagram-post p {
-	font-family: $default-font;
-	font-size: 20px;
-	opacity: 0.8;
-	/*line-height: 44px;*/
-	@media (min-width: $md) {
-		font-size: 3.5vh;
-	}
-
-	@media (min-width: 1300px) {
-		font-size: 30px
-	}
-}
-
-.timestamp {
-	color: #8B8B8B;
-	opacity: 1;
-}
-
-.marquee-below-feed {
-	margin: 34px 0
-}
-
-#about {
-	background-color: #F5F5F5;
-	overflow-x: hidden;
-}
-
-.about-container {
-	padding: 50px 20px 60px;
-	@media (min-width: $md) {
-		padding: 160px 80px 190px;
-	}
-
-	h2 {
-		font-family: $default-font;
-		font-size: 89.74px;
-		color: #000000;
-		letter-spacing: 0;
-		margin-bottom: 50px;
-	}
-
-	h5 {
-		font-weight: bold;
-		margin-bottom: 20px;
-		font-family: $default-font;
-		font-size: 20px;
-	}
-
-	ul {
-		list-style-type: none;
-		padding-left: 0;
-	}
-
-	p {
-		font-family: $default-font;
-		font-size: 20px;
-		line-height: 30px;
-		opacity: 0.8;
-	}
-
-	a {
-		color: inherit;
-	}
-}
-
-.about-column {
-	@media (max-width: $lg) {
-		margin-bottom: 30px;
 	}
 }

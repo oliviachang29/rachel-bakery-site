@@ -1,0 +1,37 @@
+.hero-container {
+	padding: 100px 20px 60px;
+	@media (min-width: $xs) {
+		padding: 150px 20px 70px;
+	}
+	@media (min-width: $lg) {
+		padding: 150px 70px;
+	}
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-text {
+	font-family: $default-font;
+	letter-spacing: 0;
+	line-height: 50px;
+	text-align: center;
+	font-size: 48px;
+	@media (min-width: $lg) {
+		font-size: 79.74px;
+		line-height: 91px;
+		width: 50%;
+	}
+}
+
+#hero-text-1 {
+	@media (min-width: $lg) {
+		text-align: left;
+	}
+}
+
+#hero-text-2 {
+	@media (min-width: $lg) {
+		text-align: right;
+		align-self: flex-end;
+	}
+}

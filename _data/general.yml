@@ -6,14 +6,12 @@ nav:
   - text: About
     url: "#about"
   - text: Contact
-    url: mailto:rzychang@gmail.com
+    url: mailto:rzchang29@gmail.com
 hero:
   text_1: "Bakery based in \nPalo Alto, California."
   text_2: I make some pretty good stuff.
 about:
 - title: description
-  text: this my bakcing blog
-- title: Commissions
   text: |-
     Your everlasting summer
     You can see it fading fast
@@ -27,6 +25,8 @@ about:
     Stowin' away the time
     Are you gatherin' up the tears
     Have you had enough of mine
+- title: Commissions
+  text: |-
     Are you reelin' in the years
     Stowin' away the time
     Are you gatherin' up the tears
@@ -45,7 +45,7 @@ contact:
 - name: Instagram
   url: https://instagram.com/steelydanslands
 - name: Email
-  url: mailto:rzychang@gmail.com
+  url: mailto:rzchang29@gmail.com
 marquee:
   first:
     top: 'latest creations latest creations latest creations latest creations latest
@@ -65,3 +65,4 @@ marquee:
       for available for available for available for available for available for
     bottom: commissions commissions commissions commissions commissions commissions
       commissions commissions commissions commissions
+tags_separation_character: '. . .'

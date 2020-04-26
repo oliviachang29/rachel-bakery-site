@@ -1,0 +1,30 @@
+@import "variables";
+
+.marquee-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.marquee {
+	font-family: $default-font;
+	font-size: 29.74px;
+	color: #B4B4B4;
+	letter-spacing: 0;
+	text-align: center;
+	white-space: nowrap;
+	margin-left: -15px;
+	margin-bottom: 0;
+	@include noselect;
+}
+
+#marquee-latest-creations-container {
+	margin-bottom: 34px;
+}
+
+.marquee-top-text {
+	margin-bottom: -10px;
+}
+
+.marquee-below-feed {
+	margin: 34px 0
+}
