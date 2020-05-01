@@ -9,7 +9,7 @@ nav:
     url: mailto:rzchang29@gmail.com
 hero:
   text_1: "Bakery based in \nPalo Alto, California."
-  text_2: I make some pretty good stuff.
+  text_2: this is my stepladder
 about:
 - title: description
   text: |-
@@ -65,4 +65,4 @@ marquee:
       for available for available for available for available for available for
     bottom: commissions commissions commissions commissions commissions commissions
       commissions commissions commissions commissions
-tags_separation_character: '. . .'
+tags_separation_character: ". . ."
