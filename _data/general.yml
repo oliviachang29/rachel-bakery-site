@@ -9,22 +9,10 @@ nav:
     url: mailto:rzchang29@gmail.com
 hero:
   text_1: "Bakery based in \nPalo Alto, California."
-  text_2: this is my stepladder
+  text_2: "* open for orders *"
 about:
 - title: description
-  text: |-
-    Your everlasting summer
-    You can see it fading fast
-    So you grab a piece of something
-    That you think is gonna last
-    But you wouldn't know a diamond
-    If you held it in your hand
-    The things you think are precious
-    I can't understand
-    Are you reelin' in the years
-    Stowin' away the time
-    Are you gatherin' up the tears
-    Have you had enough of mine
+  text: ''
 - title: Commissions
   text: |-
     Are you reelin' in the years
