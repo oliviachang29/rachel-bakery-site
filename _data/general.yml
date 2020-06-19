@@ -11,10 +11,10 @@ hero:
   text_1: "Bakery based in \nPalo Alto, California."
   text_2: "* open for orders *"
 about:
-- title: description
+- title: Description
   text: a high schooler who spends their free time baking. i love making cakes and
     pastries but i can cook a wide range of foods.
-- title: commissions
+- title: Commissions
   text: PAY ME
 contact:
 - name: Instagram
