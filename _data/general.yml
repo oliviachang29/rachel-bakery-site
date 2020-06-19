@@ -12,23 +12,10 @@ hero:
   text_2: "* open for orders *"
 about:
 - title: description
-  text: ''
-- title: Commissions
-  text: |-
-    Are you reelin' in the years
-    Stowin' away the time
-    Are you gatherin' up the tears
-    Have you had enough of mine
-    You been tellin' me you're a genius
-    Since you were seventeen
-    In all the time I've known you
-    I still don't know what you mean
-    The weekend at the college
-    Didn't turn out like you planned
-    The things that pass for knowledge
-    I can't understand
-    Are you reelin' in the years
-    Stowin' away the time
+  text: a high schooler who spends their free time baking. i love making cakes and
+    pastries but i can cook a wide range of foods.
+- title: commissions
+  text: PAY ME
 contact:
 - name: Instagram
   url: https://instagram.com/steelydanslands
